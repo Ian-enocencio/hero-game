@@ -10,4 +10,14 @@ const hero = {
     }
 }
 
-hero.name();
+const rest = {
+    
+}
+
+const pickUpItem = {
+
+}
+
+const equipWeapon = {
+    
+}
