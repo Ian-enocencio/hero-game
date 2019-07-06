@@ -15,27 +15,33 @@ const hero = {
 }
 
 
-/* -------------------------
-Game logic functions
----------------------------*/
+/* ----------------------------------------------------------------------
+                            Game logic functions
+-------------------------------------------------------------------------*/
+
+// ----------rest
+
 function rest (hero) {
 
-    hero.health = 10
+   hero.health = 10;
 
-  
+   return hero
 }
+
+// ---------- Picking up items 
 
 function pickUpItem  (hero) {
 
 }
 
+//---------- equip weapon 
 function equipWeapon (hero) {
 
 }
 
-/* -------------------------
-UI for rest
----------------------------*/
+/* ------------------------- ------------------------------------
+                            UI for rest
+------------------------------------------------------------*/
 
 // const innRest = document.getElementById('inn')
 // if (true) {
@@ -44,7 +50,5 @@ UI for rest
 hero.health = 8 
 document.getElementById('inn').click(hero.health = 10)
 
-/* -------------------------
-Picking up items
----------------------------*/
+
 
