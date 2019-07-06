@@ -25,11 +25,11 @@ function rest (hero) {
   
 }
 
-const pickUpItem = {
+function pickUpItem  (hero) {
 
 }
 
-const equipWeapon = {
+function equipWeapon (hero) {
 
 }
 
