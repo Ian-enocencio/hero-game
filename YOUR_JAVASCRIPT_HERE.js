@@ -2,6 +2,7 @@
 const hero = {
     name: 'naruto',
     heroic: true,
+    inventory: [],
 }
 
 hero.name();
