@@ -1,4 +1,8 @@
 // Write your JS here
+
+/* -------------------------
+Hero Object
+---------------------------*/
 const hero = {
     name: 'naruto',
     heroic: true,
@@ -11,6 +15,9 @@ const hero = {
 }
 
 
+/* -------------------------
+Game logic functions
+---------------------------*/
 function rest (hero) {
 
     hero.health = 10
@@ -25,3 +32,19 @@ const pickUpItem = {
 const equipWeapon = {
 
 }
+
+/* -------------------------
+UI for rest
+---------------------------*/
+
+// const innRest = document.getElementById('inn')
+// if (true) {
+//     document.write('no element');
+// }
+hero.health = 8 
+document.getElementById('inn').click(hero.health = 10)
+
+/* -------------------------
+Picking up items
+---------------------------*/
+
